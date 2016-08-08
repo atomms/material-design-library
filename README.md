@@ -1,3 +1,6 @@
+This project is no longer being maintained
+==========================================
+
 Material Design Library
 ====================
 

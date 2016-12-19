@@ -1,4 +1,4 @@
-This project is no longer being maintained
+Adapted by atomms
 ==========================================
 
 Material Design Library

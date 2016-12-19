@@ -5,6 +5,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 
+import com.blunderer.materialdesignlibrary.activities.AActivity;
 import com.blunderer.materialdesignlibrary.handlers.ActionBarDefaultHandler;
 import com.blunderer.materialdesignlibrary.handlers.ActionBarHandler;
 import com.blunderer.materialdesignlibrary.sample.R;
@@ -59,6 +60,11 @@ public class ListViewActivity
     @Override
     public boolean onItemLongClick(AdapterView<?> adapterView, View view, int position, long l) {
         return true;
+    }
+
+    @Override
+    protected boolean enableActionBarShadow() {
+        return false;
     }
 
     @Override

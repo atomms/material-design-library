@@ -27,6 +27,11 @@ public class ScrollViewActivity
     }
 
     @Override
+    protected boolean enableActionBarShadow() {
+        return false;
+    }
+
+    @Override
     protected ActionBarHandler getActionBarHandler() {
         return new ActionBarDefaultHandler(this);
     }
